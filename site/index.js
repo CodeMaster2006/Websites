@@ -9,7 +9,7 @@ ctx = c.getContext("2d");
 c.width=600*res
 c.height=400*res
 happy=new bounceText("Happy",50,50)
-birthday=new bounceText("Birthday",100,400)
+birthday=new bounceText("Birthday!",100,400)
 interval=setInterval(function(){
     ctx.clearRect(0,0,600*res,400*res)
     ctx.fillStyle="lightskyblue"
